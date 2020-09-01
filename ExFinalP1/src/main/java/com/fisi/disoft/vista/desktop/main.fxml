@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fisi.disoft.controlador.desktop.MainController">
+   <left>
+       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+           <Button mnemonicParsing="false" onAction="#pregunta1" text="Consulta 1" />
+           <Button mnemonicParsing="false" onAction="#pregunta2" text="Consulta 2" />
+           <Button mnemonicParsing="false" onAction="#pregunta3" text="Consulta 3" />
+           <Button mnemonicParsing="false" onAction="#pregunta4" text="Consulta 4" />
+           <Button mnemonicParsing="false" onAction="#pregunta5" text="Consulta 5" />
+           <Button mnemonicParsing="false" onAction="#pregunta6" text="Consulta 6" />
+           <Button mnemonicParsing="false" onAction="#pregunta7" text="Consulta 7" />
+           <Button mnemonicParsing="false" onAction="#pregunta8" text="Consulta 8" />
+       </VBox>
+   </left>
+   <center>
+      <VBox fx:id="vBox" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
