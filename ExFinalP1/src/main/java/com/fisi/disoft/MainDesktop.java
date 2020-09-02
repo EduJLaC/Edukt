@@ -9,15 +9,14 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.net.URL;
 
-public class Main extends Application {
+public class MainDesktop extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
 
         Parent root = FXMLLoader.load(new URL("file:src" + File.separator + "main" + File.separator + "java" +
                 File.separator + "com" + File.separator + "fisi" + File.separator + "disoft" + File.separator
-                + "vista" + File.separator + "desktop" +
-                File.separator + "main.fxml"));
+                + "vista" + File.separator + "desktop" + File.separator + "desktop.fxml"));
         primaryStage.setTitle("Examen Final Parte 1");
         primaryStage.setScene(new Scene(root));
         primaryStage.setWidth(800);

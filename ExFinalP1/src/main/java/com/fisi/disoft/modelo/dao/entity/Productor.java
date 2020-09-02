@@ -6,6 +6,14 @@ public class Productor {
     private String apellido;
     private String region;
 
+    public Productor() {
+    }
+
+    public Productor(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
     public Integer getIdProductor() {
         return idProductor;
     }

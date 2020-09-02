@@ -4,7 +4,7 @@ import com.fisi.disoft.modelo.dao.DAOFactory;
 import com.fisi.disoft.modelo.dao.IProductorDAO;
 import com.fisi.disoft.modelo.dao.IVinoDAO;
 
-public class SqlDaoFactory extends DAOFactory {
+public class SqlDaoFactory extends DAOFactory{
 
     @Override
     public IVinoDAO getVinoDAO() {
